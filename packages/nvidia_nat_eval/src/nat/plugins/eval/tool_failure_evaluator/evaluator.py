@@ -35,7 +35,7 @@ from .models import _ToolSummary
 
 
 class ToolFailureEvaluator(BaseEvaluator, AtifBaseEvaluator):
-    """Evaluates tool call success rate by checking ``status="error"`` on TOOL_END events.
+    """Evaluates tool call success rate.
 
     Args:
         max_concurrency: Maximum number of items to evaluate concurrently.
